@@ -1,9 +1,11 @@
 {
   colorschemes = {
-    gruvbox = {
+    base16 = {
       enable = true;
+      colorscheme = "gruvbox-dark-medium";
+
       settings = {
-      transparent_mode = true;
+        telescope = false;
       };
     };
   };

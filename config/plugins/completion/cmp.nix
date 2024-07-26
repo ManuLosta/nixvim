@@ -38,16 +38,6 @@
           }
         ];
 
-        window = {
-          completion = {
-            border = "rounded";
-            winhighlight = "Normal:Normal,FloatBorder:FloatBorder,CursorLine:Visual,Search:None";
-          };
-          documentation = {
-            border = "rounded";
-          };
-        };
-
         mapping = {
           "<C-n>" = "cmp.mapping.select_next_item()";
           "<C-p>" = "cmp.mapping.select_prev_item()";

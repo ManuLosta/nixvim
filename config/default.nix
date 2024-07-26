@@ -21,11 +21,18 @@
     ./plugins/ui/theme.nix
     ./plugins/ui/lualine.nix
     ./plugins/ui/bufferline.nix
+    ./plugins/ui/noice.nix
 
     # Utils
     ./plugins/utils/conform.nix
     ./plugins/utils/luasnip.nix
     ./plugins/utils/telescope.nix
     ./plugins/utils/which-key.nix
+    ./plugins/utils/neo-tree.nix
+    ./plugins/utils/autopairs.nix
+
+    # Git
+    ./plugins/git/lazygit.nix
+    ./plugins/git/gitsigns.nix
   ];
 }
