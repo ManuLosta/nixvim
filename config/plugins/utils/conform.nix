@@ -15,6 +15,7 @@
       nix = ["alejandra"];
       markdown = [["prettierd" "prettier"]];
       rust = ["rustfmt"];
+      haskell = ["ormolu"];
     };
   };
 

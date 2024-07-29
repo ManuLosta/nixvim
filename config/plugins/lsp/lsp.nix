@@ -7,6 +7,7 @@
       lua-ls = {enable = true;};
       tsserver = {enable = true;};
       nil-ls = {enable = true;};
+      hls = {enable = true;};
     };
   };
 }
